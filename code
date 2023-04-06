@@ -1,0 +1,5 @@
+open .
+yarn start
+yarn build
+yarn sync
+"sync": "aws s3 sync ./build 's3://materialtechlab.com/'",
