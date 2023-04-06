@@ -1,5 +1,8 @@
 open .
+yarn
 yarn start
 yarn build
 yarn sync
 "sync": "aws s3 sync ./build 's3://materialtechlab.com/'",
+npm update
+npm audit fix --force
