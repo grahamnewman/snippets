@@ -8,5 +8,11 @@ yarn sync
 npm update
 npm audit fix --force
 
-/*Git
+/*Git + SSH
 git init
+git@github.com:grahamnewman/materialtechlab-v1.git
+git remove -v
+git add .
+git commit -m "first commit"
+git push -u origin master
+git push
