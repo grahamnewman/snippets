@@ -1,3 +1,4 @@
+/*React
 open .
 yarn
 yarn start
@@ -6,3 +7,6 @@ yarn sync
 "sync": "aws s3 sync ./build 's3://materialtechlab.com/'",
 npm update
 npm audit fix --force
+
+/*Git
+git init
