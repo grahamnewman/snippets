@@ -13,6 +13,7 @@ git init
 git clone git@github.com:grahamnewman/materialtechlab-v2.git
 git remote set-url origin new.git.url/here
 git remote -v
+rm -f .git/index.lock
 git add .
 git commit -m "first commit"
 git push -u origin master
