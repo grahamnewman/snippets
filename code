@@ -11,6 +11,7 @@ npm audit fix --force
 /*Git + SSH
 git init
 git clone git@github.com:grahamnewman/materialtechlab-v2.git
+git remote set-url origin new.git.url/here
 git remote -v
 git add .
 git commit -m "first commit"
